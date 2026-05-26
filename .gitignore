@@ -22,11 +22,8 @@ build/
 Thumbs.db
 Desktop.ini
 
-# Project output (generated files)
-output/*.png
-output/*.jpg
-output/*.json
-!output/*.md
+# Project output (not for distribution)
+output/
 
 # Temporary files
 *.tmp
@@ -36,3 +33,5 @@ output/*.json
 # Internal dev files (not for distribution)
 todolist.md
 需求.md
+SKILL.md
+使用说明.md
