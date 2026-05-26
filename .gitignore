@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyo~
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project output (generated files)
+output/*.png
+output/*.jpg
+output/*.json
+!output/*.md
+
+# Temporary files
+*.tmp
+*.log
+*.zip
+
+# Internal dev files (not for distribution)
+todolist.md
+需求.md
